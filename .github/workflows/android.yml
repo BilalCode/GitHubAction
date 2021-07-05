@@ -28,7 +28,7 @@ jobs:
       run: ./gradlew testDebugUnitTest
       
     - name: Build with Gradle
-      run: ./gradlew bundleRelease
+      run: ./gradlew bundleDebug
       
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.4
